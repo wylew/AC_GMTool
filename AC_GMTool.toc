@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: |cff00ff00AzerothCore|r GM Tool
+## Notes: Advanced GM Sidebar with Search, Dressing Room, Mounts, and Command Wiki.
+## Author: Gemini AI
+## Version: 2.5
+## SavedVariables: AC_GM_Angle
+
+AC_GMTool.lua
