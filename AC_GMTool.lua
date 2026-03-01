@@ -88,7 +88,7 @@ if cmd then b:SetScript("OnClick", function() SendChatMessage(cmd, "SAY") end) e
         local spellPop, spellCont = CreatePop("Spells", 230, 300)
         local wikiPop, wikiCont, wikiSF = CreatePop("Wiki", 400, 500)
         local uI = { 23162, 43651, 17, 38301 }; for i,v in ipairs(uI) do AddListRow(v, "item", itemCont, i-1) end; itemCont:SetHeight(#uI * 40)
-        local uS = { 31700, 32028, 24341, 26565 }; for i,v in ipairs(uS) do AddListRow(v, "spell", spellCont, i-1) end; spellCont:SetHeight(#uS * 40)
+        local uS = { 31700, 32028, 24341, 26565, 1908, 3612, 45385 }; for i,v in ipairs(uS) do AddListRow(v, "spell", spellCont, i-1) end; spellCont:SetHeight(#uS * 40)
 
         local mountFrame = CreateFrame("Frame", nil, frame)
         mountFrame:SetSize(130, 260); mountFrame:SetPoint("RIGHT", frame, "LEFT", -5, 0)
